@@ -1,0 +1,29 @@
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(135deg, #FFB6C1, #FFC0CB); /* Gradiente rosado romántico */
+  font-family: 'Cursive', Arial, sans-serif; /* Fuente estilo cursiva */
+  color: #800020; /* Burdeos para un toque romántico */
+}
+
+#message-container {
+  padding: 30px 50px;
+  background-color: #fff;
+  border: 3px solid #FF69B4; /* Borde rosado intenso */
+  border-radius: 15px;
+  font-size: 1.8em;
+  text-align: center;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  transition: transform 0.2s, background-color 0.2s, color 0.2s;
+}
+
+#message-container:hover {
+  transform: scale(1.1);
+  background-color: #FFE4E1; /* Rosado suave al pasar el cursor */
+  color: #C71585; /* Magenta oscuro */
+}
